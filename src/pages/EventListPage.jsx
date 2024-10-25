@@ -1,8 +1,8 @@
-// src/pages/EventListPage.jsx
 import React, { useState } from "react";
-import events from "../data/events"; // Ensure this file has the event data
+import events from "../data/events";
 import EventCard from "../components/EventCard";
 import EventModal from "../components/EventModal";
+import "../styles/EventListPage.css";
 
 const EventListPage = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -20,7 +20,7 @@ const EventListPage = () => {
 
   return (
     <div className="p-4">
-      <h2 className="text-3xl font-bold mb-4 text-center text-blue-600">Upcoming Events</h2>
+      <h2 className="animated-heading">Upcoming Events</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
         {events.map((event) => (
           <EventCard key={event.id} event={event} onClick={handleCardClick} />
