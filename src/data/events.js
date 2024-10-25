@@ -21,7 +21,7 @@ const events = [
       name: "Event Two",
       date: "2024-11-02",
       location: "Los Angeles",
-      image: "/assets/Events2.png",
+      image: "/assets/Events3.png",
       description: "Description of Event Two",
     },
     {
@@ -29,7 +29,7 @@ const events = [
       name: "Event Two",
       date: "2024-11-02",
       location: "Los Angeles",
-      image: "/assets/Events2.png",
+      image: "/assets/Events4.png",
       description: "Description of Event Two",
     }
   ];

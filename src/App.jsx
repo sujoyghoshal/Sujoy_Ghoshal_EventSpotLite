@@ -5,9 +5,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 const App = () => (
-  <div className="flex flex-col min-h-screen"> {/* Flexbox container with minimum height */}
+  <div className="flex flex-col min-h-screen"> 
     <Header />
-    <main className="flex-grow"> {/* Main content area that grows */}
+    <main className="flex-grow">
       <EventListPage />
     </main>
     <Footer />
