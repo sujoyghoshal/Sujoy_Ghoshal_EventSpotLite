@@ -1,6 +1,4 @@
-// src/components/EventCard.jsx
 import React from 'react';
-
 const EventCard = ({ event, onClick }) => (
   <div
     onClick={() => onClick(event)}
