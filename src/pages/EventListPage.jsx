@@ -1,3 +1,4 @@
+// src/pages/EventListPage.jsx
 import React, { useState } from "react";
 import events from "../data/events";
 import EventCard from "../components/EventCard";
@@ -21,7 +22,8 @@ const EventListPage = () => {
   return (
     <div className="p-4">
       <h2 className="animated-heading">Upcoming Events</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      {/* Adjusting grid classes for responsive layout */}
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {events.map((event) => (
           <EventCard key={event.id} event={event} onClick={handleCardClick} />
         ))}
