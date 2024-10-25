@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/EventCard.css';
+
 const EventCard = ({ event, onClick }) => (
   <div
     onClick={() => onClick(event)}
@@ -13,7 +15,7 @@ const EventCard = ({ event, onClick }) => (
       <h2 className="text-2xl font-semibold">
         <strong>Event Name:</strong> {event.name}
       </h2>
-      <p>
+      <p className="event-date">
         <strong>Event Date:</strong> {event.date}
       </p>
       <p>
