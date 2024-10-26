@@ -60,3 +60,9 @@ EventSpot Lite provides an elegant, intuitive interface for users to discover ev
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/YourGitHubUsername/EventSpotLite.git
+2. **Navigate to the Project Directory**
+   ```bash
+   cd EventSpotLite
+3. **Install**
+   ```bash
+   npm i
