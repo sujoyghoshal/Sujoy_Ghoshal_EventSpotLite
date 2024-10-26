@@ -8,6 +8,8 @@
   <img src="./ui/Tailwind%20CSS.png" alt="Tailwind CSS Icon" width="100"> &nbsp; 
 </p>
 
+## Project Overview
+
 **EventSpot Lite** is a **responsive single-page web application** for **discovering local events** with **clean animations**, **modern UI**, and **intuitive design**.
 
 ## Screenshots
@@ -28,10 +30,6 @@
 - [Setup & Installation](#setup--installation)
 - [Screenshots](#screenshots)
 - [Hosting & Access](#hosting--access)
-
-## Project Overview
-
-EventSpot Lite provides an elegant, intuitive interface for users to discover events nearby. Built with a focus on responsive design and smooth animations, this app delivers a seamless experience on all devices.
 
 ## Features
 
