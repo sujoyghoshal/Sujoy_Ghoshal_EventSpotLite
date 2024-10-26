@@ -9,7 +9,8 @@
   <img src="./ui/Event.png" alt="EventSpot Lite Small Logo" width="100">
 </p>
 
-EventSpot Lite is a responsive single-page web application for discovering local events with clean animations, modern UI, and intuitive design.
+**EventSpot Lite** is a **responsive single-page web application** for **discovering local events** with **clean animations**, **modern UI**, and **intuitive design**.
+
 ## Screenshots
 
 | **Dashboard View**                          | **Mobile View**                          |
