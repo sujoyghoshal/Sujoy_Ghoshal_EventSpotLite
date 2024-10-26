@@ -54,7 +54,7 @@ EventSpot Lite provides an elegant, intuitive interface for users to discover ev
 
 | **Tablet View**                             | **Event Listing View**                   |
 |---------------------------------------------|------------------------------------------|
-| ![Tablet View](./ui/mac.png)        | ![Event Listing](./ui/laptop.png)    |
+| ![Tablet View](./ui/tab.png)        | ![Laptop view](./ui/mac.png)    |
 
 ## Setup & Installation
 
