@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useState, useEffect } from 'react';
 import EventListPage from './pages/EventListPage';
 import Header from './components/Header';
