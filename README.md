@@ -16,7 +16,8 @@
 
 The application is deployed and accessible at the following link:
 
-- **Hosted Application URL**: [EventSpot Lite Live](https://sujoy1196eventspot.vercel.app/)
+- **Hosted Application URL**: [https://sujoy1196eventspot.vercel.app/](https://sujoy1196eventspot.vercel.app/)
+- **contacts**:[sujoy1196.be21@chitkarauniversity.edu.in](sujoy1196.be21@chitkarauniversity.edu.in)
 
 
 ## Screenshots
