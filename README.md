@@ -18,7 +18,7 @@ The application is deployed and accessible at the following link:
 
 - **Hosted Application URL**: [https://sujoy1196eventspot.vercel.app/](https://sujoy1196eventspot.vercel.app/)
 - **Contact**: [sujoy1196.be21@chitkarauniversity.edu.in](mailto:sujoy1196.be21@chitkarauniversity.edu.in)
-x
+
 
 
 ## Screenshots
