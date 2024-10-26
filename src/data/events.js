@@ -25,11 +25,11 @@ const events = [
   },
   {
     id: 4,
-    name: "Freelancing Expo",
+    name: "Foodie’s Paradise",
     date: "02-11-2024",
     location: "Himachal Pradesh, India",
     image: "/assets/Events4.png",
-    description: "Explore freelancing opportunities and connect with top clients and agencies. Learn and grow in your freelance career.",
+    description: "A festival for food lovers! Enjoy a variety of cuisines from around the world, cooking demonstrations, and live entertainment at Foodie’s Paradise. A must-visit for all food enthusiasts!.",
   }
 ];
 
