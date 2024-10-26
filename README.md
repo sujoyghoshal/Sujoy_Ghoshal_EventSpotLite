@@ -1,7 +1,7 @@
 # EventSpot Lite
 
 ![EventSpot Lite Logo](./ui/Event.png)
-![React Icon](./ui/react.png) ![Tailwind CSS Icon](./assets/tailwind-icon.png) <!-- Small React and Tailwind icons -->
+![React Icon](./ui/react.png) ![Tailwind CSS Icon](./ui/Tailwind%20CSS.png) 
 
 EventSpot Lite is a responsive single-page web application for discovering local events with clean animations, modern UI, and intuitive design.
 
