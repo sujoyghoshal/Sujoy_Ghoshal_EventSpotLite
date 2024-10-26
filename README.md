@@ -27,12 +27,8 @@
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Setup & Installation](#setup--installation)
-- [Folder Structure](#folder-structure)
 - [Screenshots](#screenshots)
-- [User Interface and Animations](#user-interface-and-animations)
-- [Performance Optimization](#performance-optimization)
 - [Hosting & Access](#hosting--access)
-- [Developer Contact](#developer-contact)
 
 ## Project Overview
 
