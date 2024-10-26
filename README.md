@@ -46,6 +46,16 @@ EventSpot Lite provides an elegant, intuitive interface for users to discover ev
 - **Data**: Mock JSON data
 - **Deployment**: Hosted on Vercel or GitHub Pages
 
+## Screenshots
+
+| **Dashboard View**                          | **Mobile View**                          |
+|---------------------------------------------|------------------------------------------|
+| ![Dashboard View](./ui/dashboard.jpg)       | ![Mobile View](./ui/mobile-view.jpg)     |
+
+| **Tablet View**                             | **Event Listing View**                   |
+|---------------------------------------------|------------------------------------------|
+| ![Tablet View](./ui/tablet-view.jpg)        | ![Event Listing](./ui/event-list.jpg)    |
+
 ## Setup & Installation
 
 1. **Clone the Repository**
