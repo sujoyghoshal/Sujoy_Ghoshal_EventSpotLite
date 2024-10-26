@@ -50,11 +50,11 @@ EventSpot Lite provides an elegant, intuitive interface for users to discover ev
 
 | **Dashboard View**                          | **Mobile View**                          |
 |---------------------------------------------|------------------------------------------|
-| ![Dashboard View](./ui/dashboard.jpg)       | ![Mobile View](./ui/mobile-view.jpg)     |
+| ![Dashboard View](./ui/Dashboard.png)       | ![Mobile View](./ui/Mobile.png)     |
 
 | **Tablet View**                             | **Event Listing View**                   |
 |---------------------------------------------|------------------------------------------|
-| ![Tablet View](./ui/tablet-view.jpg)        | ![Event Listing](./ui/event-list.jpg)    |
+| ![Tablet View](./ui/mac.png        | ![Event Listing](./ui/Mobile.png)    |
 
 ## Setup & Installation
 
