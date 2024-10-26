@@ -1,8 +1,9 @@
 # EventSpot Lite
 
-![EventSpot Lite Dashboard](./assets/dashboard-image.jpg)
+![EventSpot Lite Logo](./assets/eventspot-lite-logo.png) <!-- EventSpot Lite 3D Logo -->
+![React Icon](./assets/react-icon.png) ![Tailwind CSS Icon](./assets/tailwind-icon.png) <!-- Small React and Tailwind icons -->
 
-EventSpot Lite is a single-page web application designed to help users discover local events. The application emphasizes a visually appealing, responsive UI with smooth animations and intuitive navigation.
+EventSpot Lite is a responsive single-page web application for discovering local events with clean animations, modern UI, and intuitive design.
 
 ## Table of Contents
 
@@ -11,6 +12,7 @@ EventSpot Lite is a single-page web application designed to help users discover 
 - [Technology Stack](#technology-stack)
 - [Setup & Installation](#setup--installation)
 - [Folder Structure](#folder-structure)
+- [Screenshots](#screenshots)
 - [User Interface and Animations](#user-interface-and-animations)
 - [Performance Optimization](#performance-optimization)
 - [Hosting & Access](#hosting--access)
@@ -18,41 +20,28 @@ EventSpot Lite is a single-page web application designed to help users discover 
 
 ## Project Overview
 
-EventSpot Lite enables users to browse events happening around them. Built with a focus on UI/UX design, it utilizes mock data and animations for a smooth and responsive user experience across devices.
+EventSpot Lite provides an elegant, intuitive interface for users to discover events nearby. Built with a focus on responsive design and smooth animations, this app delivers a seamless experience on all devices.
 
 ## Features
 
-### Event Listing Page
-- Displays a list of events with details like the event name, date, and location.
-- **Search functionality**: Allows filtering of events by name or location.
-
-### Event Details Modal
-- Provides additional details on events within a modal window, including description and image.
-- Smooth fade-in and fade-out animations enhance the user experience.
-
-### Responsive Design
-- Designed to look and work well on desktops, tablets, and mobile devices.
-
-### User Interface and Animations
-- Clean and modern UI with a focus on simplicity.
-- Subtle hover effects on buttons and event cards.
-- Modal transitions for a seamless experience.
-- Loading spinner animation (simulated) for data fetching.
+| Feature                | Description                                                                                               |
+|------------------------|-----------------------------------------------------------------------------------------------------------|
+| Event Listing Page     | Displays a list of events with event name, date, and location.                                            |
+| Search Functionality   | Enables filtering events by name or location.                                                             |
+| Event Details Modal    | Provides a detailed view of each event within a modal with fade animations.                               |
+| Responsive Design      | Ensures optimal display on desktop, tablet, and mobile devices.                                           |
+| Smooth Animations      | Includes hover effects, modal transitions, and loading spinners for a polished UX.                        |
+| Visual Feedback        | Offers feedback for user interactions, like button clicks.                                                |
 
 ## Technology Stack
 
-- **Frontend Framework**: React, Angular, or Vue.js (choose one)
-- **Styling**: CSS3 and optionally CSS libraries for animations
-- **Data**: Mock data in JSON format (no backend required)
-- **Deployment**: Deployed using a free hosting service like Vercel, Netlify, or GitHub Pages
+- **Frontend Framework**: ![React](./assets/react-icon.png) React or ![Vue.js](./assets/vue-icon.png) Vue.js (choose one)
+- **Styling**: ![Tailwind CSS](./assets/tailwind-icon.png) Tailwind CSS and CSS3 animations
+- **Data**: Mock JSON data
+- **Deployment**: Hosted on Vercel, Netlify, or GitHub Pages
 
 ## Setup & Installation
 
-### Prerequisites
-- Node.js and npm installed on your system.
-- Git installed for cloning the repository.
-
-### Installation Steps
-1. Clone the repository:
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/YourGitHubUsername/EventSpotLite.git
