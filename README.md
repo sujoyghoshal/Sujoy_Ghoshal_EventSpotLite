@@ -41,8 +41,8 @@ EventSpot Lite provides an elegant, intuitive interface for users to discover ev
 
 ## Technology Stack
 
-- **Frontend Framework**: ![React](./assets/react-icon.png) React or ![Vue.js](./assets/vue-icon.png) Vue.js (choose one)
-- **Styling**: ![Tailwind CSS](./assets/tailwind-icon.png) Tailwind CSS and CSS3 animations
+- **Frontend Framework**: ![React](./ui/react.png) React 
+- **Styling**: ![Tailwind CSS](./ui/Tailwind%20CSS.png) Tailwind CSS and CSS3 animations
 - **Data**: Mock JSON data
 - **Deployment**: Hosted on Vercel, Netlify, or GitHub Pages
 
