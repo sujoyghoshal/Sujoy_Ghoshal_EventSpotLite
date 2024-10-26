@@ -10,6 +10,15 @@
 </p>
 
 EventSpot Lite is a responsive single-page web application for discovering local events with clean animations, modern UI, and intuitive design.
+## Screenshots
+
+| **Dashboard View**                          | **Mobile View**                          |
+|---------------------------------------------|------------------------------------------|
+| ![Dashboard View](./ui/Dashboard.png)       | ![Mobile View](./ui/Mobile.png)     |
+
+| **Tablet View**                             | **Event Listing View**                   |
+|---------------------------------------------|------------------------------------------|
+| ![Tablet View](./ui/tab.png)        | ![Laptop view](./ui/mac.png)    |
 
 ## Table of Contents
 
@@ -45,16 +54,6 @@ EventSpot Lite provides an elegant, intuitive interface for users to discover ev
 - **Styling**: Tailwind CSS and CSS3 animations
 - **Data**: Mock JSON data
 - **Deployment**: Hosted on Vercel or GitHub Pages
-
-## Screenshots
-
-| **Dashboard View**                          | **Mobile View**                          |
-|---------------------------------------------|------------------------------------------|
-| ![Dashboard View](./ui/Dashboard.png)       | ![Mobile View](./ui/Mobile.png)     |
-
-| **Tablet View**                             | **Event Listing View**                   |
-|---------------------------------------------|------------------------------------------|
-| ![Tablet View](./ui/tab.png)        | ![Laptop view](./ui/mac.png)    |
 
 ## Setup & Installation
 
