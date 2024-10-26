@@ -1,39 +1,18 @@
 .animated-heading {
-    font-size: 3rem;
-    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Verdana, sans-serif;
+    font-size: 2.5em; 
+    font-weight: 700;
+    color: #f5f5f5;
     text-align: center;
-    margin-bottom: 2rem;
-    color: #ff6347;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); 
-    animation: color-change 2s infinite alternate, glow 2s infinite alternate;
-}
+    margin-bottom: 2rem; 
 
-/* Smooth glow effect */
-@keyframes glow {
-    0% {
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.7), 0 0 15px rgba(255, 69, 0, 0.7);
-    }
-    100% {
-        text-shadow: 0 0 15px rgba(255, 215, 0, 0.7), 0 0 20px rgba(255, 69, 0, 0.7);
-    }
-}
-@keyframes color-change {
-    0% {
-        color: #ff6347; 
-    }
-    20% {
-        color: #ff0000;
-    }
-    40% {
-        color: #ffd700;
-    }
-    60% {
-        color: #32cd32; 
-    }
-    80% {
-        color: #ff69b4; 
-    }
-    100% {
-        color: #ffa500;
-    }
+
+    text-shadow: 
+        1px 1px 0px #a3c4f3, 
+        2px 2px 0px #7baaf7, 
+        3px 3px 0px #4f90fa,
+        4px 4px 0px #266bdf,
+        5px 5px 0px #1e4f8c, 
+        6px 6px 0px rgba(0, 0, 139, 0.7); 
 }
