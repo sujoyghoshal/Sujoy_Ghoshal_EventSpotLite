@@ -12,6 +12,13 @@
 
 **EventSpot Lite** is a **responsive single-page web application** for **discovering local events** with **clean animations**, **modern UI**, and **intuitive design**.
 
+## Hosting & Access
+
+The application is deployed and accessible at the following link:
+
+- **Hosted Application URL**: [EventSpot Lite Live](https://sujoy1196eventspot.vercel.app/)
+
+
 ## Screenshots
 
 | **Dashboard View**                          | **Mobile View**                          |
