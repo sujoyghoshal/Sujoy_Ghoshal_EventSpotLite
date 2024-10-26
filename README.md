@@ -1,12 +1,12 @@
 # EventSpot Lite
 <p align="center">
-  <img src="./ui/Event.png" alt="EventSpot Lite Logo" width="150">
+  <img src="./ui/Event.png" alt="EventSpot Lite Logo" width="200">
 </p>
 
 <p align="center">
-  <img src="./ui/react.png" alt="React Icon" width="40"> &nbsp; 
-  <img src="./ui/Tailwind%20CSS.png" alt="Tailwind CSS Icon" width="40"> &nbsp; 
-  <img src="./ui/Event.png" alt="EventSpot Lite Small Logo" width="40">
+  <img src="./ui/react.png" alt="React Icon" width="80"> &nbsp; 
+  <img src="./ui/Tailwind%20CSS.png" alt="Tailwind CSS Icon" width="80"> &nbsp; 
+  <img src="./ui/Event.png" alt="EventSpot Lite Small Logo" width="80">
 </p>
 
 EventSpot Lite is a responsive single-page web application for discovering local events with clean animations, modern UI, and intuitive design.
