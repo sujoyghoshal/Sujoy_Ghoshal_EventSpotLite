@@ -49,7 +49,7 @@ The application is deployed and accessible at the following link:
 | **Event Details Modal**    | Provides a detailed view of each event within a modal with fade animations.                                  |
 | **Responsive Design**      | Ensures optimal display on desktop, tablet, and mobile devices.                                              |
 | **Smooth Animations**      | Includes hover effects, modal transitions, and loading spinners for a polished UX.                           |
-| **Visual Feedback**        | Offers feedback for user interactions, like button clicks.                                                   |
+
 
 ## Technology Stack
 
