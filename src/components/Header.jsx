@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className="header bg-gradient-to-r from-purple-600 to-blue-500 text-white py-6 animate-fadeInDown">
-      <div className="flex justify-between items-center px-6">
+      <div className="container flex justify-between items-center mx-auto px-6">
         <div>
           <h1 className="text-4xl font-bold">EventSpot</h1>
           <p className="text-lg mt-2">Discover upcoming events around you!</p>
