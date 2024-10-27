@@ -55,7 +55,7 @@ const App = () => {
                   isAuthenticated ? (
                     <EventListPage />
                   ) : (
-                    <Navigate to="/signup" replace state={{ message: 'Please sign up or log in to view events.' }} />
+                    <Navigate to="/signup" state={{ message: 'Please sign up to view events.' }} />
                   )
                 }
               />

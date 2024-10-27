@@ -7,9 +7,9 @@ import '../styles/EventListPage.css';
 
 const EventListPage = () => {
   const location = useLocation();
-  const message = location.state?.message || ''; // Get the redirect message, if any
+  const message = location.state?.message || ''; 
 
-  // State to handle modal open/close and selected event
+
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
