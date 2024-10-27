@@ -6,6 +6,7 @@ import Loader from './components/Loader';
 import EventListPage from './pages/EventListPage';
 import SignupForm from './components/SignupForm';
 import LoginForm from './components/LoginForm';
+import ProfilePage from './pages/ProfilePage'; // Import ProfilePage
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -56,6 +57,16 @@ const App = () => {
                     <EventListPage />
                   ) : (
                     <Navigate to="/signup" state={{ message: 'Please sign up to view events.' }} />
+                  )
+                }
+              />
+              <Route
+                path="/profile"
+                element={
+                  isAuthenticated ? (
+                    <ProfilePage />
+                  ) : (
+                    <Navigate to="/login" state={{ message: 'Please log in to view your profile.' }} />
                   )
                 }
               />
