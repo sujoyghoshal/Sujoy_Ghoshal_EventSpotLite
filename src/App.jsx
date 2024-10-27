@@ -21,7 +21,7 @@ const App = () => {
     if (authStatus === 'true') {
       setIsAuthenticated(true);
     }
-    
+
     return () => clearTimeout(timer); // Clear timer on component unmount
   }, []);
 
@@ -49,9 +49,15 @@ const App = () => {
               <Route path="/" element={<Navigate to="/signup" />} />
               <Route path="/signup" element={<SignupForm />} />
               <Route path="/login" element={<LoginForm onLogin={handleLogin} />} />
-              <Route 
-                path="/events" 
-                element={isAuthenticated ? <EventListPage /> : <Navigate to="/login" />}
+              <Route
+                path="/events"
+                element={
+                  isAuthenticated ? (
+                    <EventListPage />
+                  ) : (
+                    <Navigate to="/signup" replace state={{ message: 'Please sign up or log in to view events.' }} />
+                  )
+                }
               />
             </Routes>
           </main>
@@ -62,6 +68,7 @@ const App = () => {
   );
 };
 
+// Wrapping the App with Router
 const AppWrapper = () => (
   <Router>
     <App />

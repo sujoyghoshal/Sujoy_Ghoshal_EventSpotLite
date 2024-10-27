@@ -1,10 +1,9 @@
-// src/components/Header.jsx
 import React, { useState } from "react";
 import { FaMoon, FaSun, FaBars, FaTimes } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/toggle.css";
 
-const Header = () => {
+const Header = ({ isAuthenticated, onLogout }) => {
   const [darkMode, setDarkMode] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false); 
   const navigate = useNavigate();
@@ -33,30 +32,39 @@ const Header = () => {
           </p>
         </div>
 
-
+        {/* Desktop Navigation */}
         <nav className="desktop-nav hidden md:flex space-x-6">
-          <Link to="/" className="hover:text-gray-300">Home</Link>
-          <Link to="/events" className="hover:text-gray-300">Events</Link>
-          <Link to="/signup" className="hover:text-gray-300">Account</Link>
+          {isAuthenticated && (
+            <Link to="/events" className="hover:text-gray-300">Home</Link>
+          )}
+          <Link to={isAuthenticated ? "/profile" : "/signup"} className="hover:text-gray-300">
+            {isAuthenticated ? "Profile" : "Account"}
+          </Link>
+          {isAuthenticated && (
+            <button onClick={onLogout} className="hover:text-gray-300">Logout</button>
+          )}
         </nav>
-
 
         <button className="theme-toggle-btn ml-4" onClick={toggleDarkMode}>
           {darkMode ? <FaSun className="icon" /> : <FaMoon className="icon" />}
         </button>
 
-
+        {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="mobile-menu absolute top-20 left-6 bg-purple-600 p-6 rounded-md shadow-lg">
-            <Link to="/events" className="block py-2 text-white hover:text-gray-300" onClick={toggleMenu}>
-              Home
+            {isAuthenticated && (
+              <Link to="/events" className="block py-2 text-white hover:text-gray-300" onClick={toggleMenu}>
+                Home
+              </Link>
+            )}
+            <Link to={isAuthenticated ? "/profile" : "/signup"} className="block py-2 text-white hover:text-gray-300" onClick={toggleMenu}>
+              {isAuthenticated ? "Profile" : "Account"}
             </Link>
-            <Link to="/events" className="block py-2 text-white hover:text-gray-300" onClick={toggleMenu}>
-              Events
-            </Link>
-            <Link to="/signup" className="block py-2 text-white hover:text-gray-300" onClick={toggleMenu}>
-            Account
-            </Link>
+            {isAuthenticated && (
+              <button onClick={() => { onLogout(); toggleMenu(); }} className="block py-2 text-white hover:text-gray-300">
+                Logout
+              </button>
+            )}
           </div>
         )}
       </div>
