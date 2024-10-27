@@ -1,16 +1,58 @@
+/* Dark Mode Styles */
 body.dark-mode {
   background-color: #121212;
   color: #e0e0e0;
-}
-
-.header {
-  transition: background-color 0.3s ease;
 }
 
 body.dark-mode .header {
   background-color: #333;
 }
 
+/* Header Styles */
+.header {
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Desktop Navigation */
+.desktop-nav {
+  margin-left: auto; /* Push nav links to the right */
+}
+
+/* Header Title */
+.logo h1 {
+  text-transform: uppercase;
+  font-family: Verdana, sans-serif;
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #f5f5f5;
+  text-shadow: 
+    1px 1px 0px #a3c4f3,
+    2px 2px 0px #7baaf7,
+    3px 3px 0px #4f90fa,
+    4px 4px 0px #266bdf,
+    5px 5px 0px #1e4f8c,
+    6px 6px 0px rgba(0, 0, 139, 0.7);
+}
+
+.logo p {
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-top: 0.5rem;
+}
+
+/* Theme Toggle Button */
 .theme-toggle-btn {
   background: transparent;
   border: none;
@@ -37,59 +79,39 @@ body.dark-mode .theme-toggle-btn .icon {
   }
 }
 
-.container {
-  max-width: 1200px; 
-  width: 100%;
+
+.mobile-menu {
+  z-index: 10;
+  right: 6px;
+  width: fit-content;
+  height: fit-content;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header h1 {
-  text-transform: uppercase;
-  font-family: Verdana, sans-serif;
-  font-size: 2.5em;
-  font-weight: 500;
-  color: #f5f5f5;
-  text-align: left;
-  text-shadow: 
-      1px 1px 0px #a3c4f3, 
-      2px 2px 0px #7baaf7, 
-      3px 3px 0px #4f90fa,
-      4px 4px 0px #266bdf,
-      5px 5px 0px #1e4f8c, 
-      6px 6px 0px rgba(0, 0, 139, 0.7);
-}
-
-.header p {
-  color: #ffffff;
-  font-size: 1.2em;
-  margin-top: 0.5rem;
-  text-align: left;
-}
-
-.theme-toggle-btn {
-  margin-left: auto;
-}
-
-.icon {
-  transition: transform 0.3s;
+.mobile-menu a {
+  display: block;
+  padding: 1rem 0;
+  text-align: right;
 }
 
 
 @media (max-width: 768px) {
-  .header h1 {
-    font-size: 2em; 
+  .desktop-nav {
+    display: none;
   }
 
-  .header p {
-    font-size: 1em; 
+  .header {
+    flex-direction: row;
   }
 
   .theme-toggle-btn {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
+  }
+
+  .logo h1 {
+    font-size: 2em;
+  }
+
+  .logo p {
+    font-size: 1em;
   }
 }
