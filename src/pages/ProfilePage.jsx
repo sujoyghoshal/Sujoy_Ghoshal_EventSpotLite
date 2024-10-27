@@ -1,6 +1,6 @@
-// src/pages/ProfilePage.jsx
 import React, { useEffect, useState } from 'react';
 import '../styles/ProfilePage.css';
+import profileImage from '/assets/profile.jpg';
 
 const ProfilePage = () => {
   const [userData, setUserData] = useState({ email: '', password: '' });
@@ -18,7 +18,7 @@ const ProfilePage = () => {
       <div className="profile-card bg-white p-6 rounded-lg shadow-lg">
         <div className="profile-image-container">
           <img
-            src="../public/assets/profile.jpg" 
+            src={profileImage} 
             alt="User Avatar"
             className="profile-avatar rounded-full w-24 h-24 mb-4"
           />
