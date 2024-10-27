@@ -13,22 +13,27 @@ const App = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 800); // Set loader timeout for visibility
+
     const authStatus = localStorage.getItem('isAuthenticated');
     if (authStatus === 'true') {
       setIsAuthenticated(true);
     }
-    setIsLoading(false);
+    
+    return () => clearTimeout(timer); // Clear timer on component unmount
   }, []);
 
   const handleLogin = () => {
     setIsAuthenticated(true);
-    localStorage.setItem('isAuthenticated', 'true'); // Save authentication state
-    navigate('/events');  // Navigate to /events after login
+    localStorage.setItem('isAuthenticated', 'true');
+    navigate('/events');
   };
 
   const handleLogout = () => {
     setIsAuthenticated(false);
-    localStorage.removeItem('isAuthenticated'); // Clear authentication state
+    localStorage.removeItem('isAuthenticated');
     navigate('/login');
   };
 
